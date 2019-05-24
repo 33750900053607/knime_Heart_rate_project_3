@@ -7,19 +7,10 @@
 </config>
 <config key="model">
 <config key="rowFilter">
-<entry key="RowFilter_TypeID" type="xstring" value="RangeVal_RowFilter"/>
-<entry key="ColumnName" type="xstring" value="Col1"/>
-<entry key="include" type="xboolean" value="true"/>
-<entry key="deepFiltering" type="xboolean" value="false"/>
-<config key="lowerBound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.001"/>
-</config>
-</config>
-<config key="upperBound">
-<entry key="datacell" type="xstring" isnull="true" value=""/>
-</config>
+<entry key="RowFilter_TypeID" type="xstring" value="RowNumber_RowFilter"/>
+<entry key="RowRangeStart" type="xint" value="0"/>
+<entry key="RowRangeEnd" type="xint" value="49"/>
+<entry key="RowRangeInclude" type="xboolean" value="true"/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -43,12 +34,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 24, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 50, Cols: 2"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a2904858-0df0-4cc0-8bb8-e8527a6330d6"/>
+<entry key="file_store_id" type="xstring" value="4629b47f-2fca-427c-ad01-a62f3b7a2110"/>
 </config>
 </config>
