@@ -9,16 +9,16 @@
 <config key="rowFilter">
 <entry key="RowFilter_TypeID" type="xstring" value="RangeVal_RowFilter"/>
 <entry key="ColumnName" type="xstring" value="Col1"/>
-<entry key="include" type="xboolean" value="true"/>
+<entry key="include" type="xboolean" value="false"/>
 <entry key="deepFiltering" type="xboolean" value="false"/>
 <config key="lowerBound">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
-<config key="org.knime.core.data.def.DoubleCell">
-<entry key="DoubleCell" type="xdouble" value="0.001"/>
-</config>
+<entry key="datacell" type="xstring" isnull="true" value=""/>
 </config>
 <config key="upperBound">
-<entry key="datacell" type="xstring" isnull="true" value=""/>
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
+<config key="org.knime.core.data.def.DoubleCell">
+<entry key="DoubleCell" type="xdouble" value="0.0"/>
+</config>
 </config>
 </config>
 </config>
@@ -49,6 +49,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a2904858-0df0-4cc0-8bb8-e8527a6330d6"/>
+<entry key="file_store_id" type="xstring" value="8f6c48c4-6d36-44da-bd1f-4e0cdc840123"/>
 </config>
 </config>
