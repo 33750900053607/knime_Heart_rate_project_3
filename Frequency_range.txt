@@ -1,0 +1,4 @@
+Frequency_range,ff
+0.0,VLF
+1.0,LF
+2.0,HF
