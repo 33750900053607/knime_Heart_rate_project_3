@@ -29,7 +29,7 @@
 <entry key="gridColor" type="xstring" value="rgba(230,230,230,1.0)"/>
 <entry key="hasDataset" type="xboolean" value="true"/>
 <config key="dataset">
-<entry key="tableID" type="xstring" value="e9a7790e-4efa-4e66-ab73-73591957c079"/>
+<entry key="tableID" type="xstring" value="f6119b9f-9890-4684-8055-96339e96c68a"/>
 <config key="columnKeys">
 <entry key="array-size" type="xint" value="2"/>
 <entry key="0" type="xstring" value="rownum"/>
@@ -46,20 +46,7 @@
 <entry key="1" type="xstring" isnull="true" value=""/>
 </config>
 <entry key="colPropsSize" type="xint" value="0"/>
-<entry key="numRows" type="xint" value="1"/>
-<config key="row_0">
-<entry key="rowKey" type="xstring" value="Row1"/>
-<config key="values">
-<entry key="array-size" type="xint" value="2"/>
-<entry key="0" type="xstring" value="1.0"/>
-<entry key="1" type="xstring" value="26.076175469216597"/>
-</config>
-<entry key="numProperties" type="xint" value="1"/>
-<config key="property_0">
-<entry key="key" type="xstring" value="color"/>
-<entry key="value" type="xstring" value="#404040"/>
-</config>
-</config>
+<entry key="numRows" type="xint" value="0"/>
 <entry key="numColorModels" type="xint" value="0"/>
 <config key="missingValueColumns">
 <entry key="array-size" type="xint" value="0"/>

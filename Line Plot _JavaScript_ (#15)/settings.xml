@@ -128,11 +128,11 @@
 <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-bundle-version" type="xstring" value="3.7.0.v201811280939"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.2.v201904170930"/>
 <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-<entry key="node-feature-version" type="xstring" value="3.7.1.v201901281201"/>
+<entry key="node-feature-version" type="xstring" value="3.7.2.v201904170930"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Line Plot (JavaScript)"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -157,6 +157,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6e39994c-b6a3-41dc-ab0c-10d9f8b164fd"/>
+<entry key="file_store_id" type="xstring" value="0e716c53-1ad9-4292-afb9-9308a41d534f"/>
 </config>
 </config>

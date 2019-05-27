@@ -11,6 +11,16 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="compute_median" type="xboolean" value="false"/>
+<config key="num_nominal-values_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="num_nominal-values" type="xint" value="20"/>
+<config key="num_nominal-values_output_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="num_nominal-values_output" type="xint" value="1000"/>
 <config key="filter_nominal_columns_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -43,21 +53,6 @@
 </config>
 </config>
 </config>
-<config key="num_nominal-values_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="num_nominal-values" type="xint" value="20"/>
-<config key="num_nominal-values_output_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="num_nominal-values_output" type="xint" value="1000"/>
-<config key="enable HiLite_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="enable HiLite" type="xboolean" value="false"/>
 <config key="image format_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -73,6 +68,11 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="histogram height" type="xint" value="100"/>
+<config key="enable HiLite_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="enable HiLite" type="xboolean" value="false"/>
 <config key="show min max_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -114,12 +114,12 @@
 <entry key="index" type="xint" value="3"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 15, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_3"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="811d77e7-a184-462b-ba98-e82c08c176a8"/>
+<entry key="file_store_id" type="xstring" value="8708c21a-9c44-447d-b72e-49304e9ac9e4"/>
 </config>
 </config>

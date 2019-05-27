@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="smorita"/>
 <entry key="authored-when" type="xstring" value="2019-05-09 10:59:07 +0900"/>
 <entry key="lastEdited-by" type="xstring" value="smorita"/>
-<entry key="lastEdited-when" type="xstring" value="2019-05-26 16:50:58 +0900"/>
+<entry key="lastEdited-when" type="xstring" value="2019-05-26 23:58:42 +0900"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -515,7 +515,7 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="844"/>
+<entry key="0" type="xint" value="864"/>
 <entry key="1" type="xint" value="77"/>
 <entry key="2" type="xint" value="75"/>
 <entry key="3" type="xint" value="93"/>
